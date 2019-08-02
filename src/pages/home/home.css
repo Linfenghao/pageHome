@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.home-head{
+    padding-top:10px;
+    /* box-sizing: border-box; */
+    margin-top:-10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100%;
+    line-height: 30px;
+    background-color: white;
+    color: gray;
+    padding-left: 30px;
+    /* margin-bottom: -10px; */
+}
+.home-head ul{
+    list-style: none;
+}
+.home-head ul li{
+    display: inline-table;
+    width: 10%;
+    text-align: center;
+}
+.home-head ul li a{
+    color: gray;
+    text-decoration: none;
+    font-weight: 700;
+}
+.home-head ul .head-text{
+    width: 15%;
+    font-size: 22px;
+    font-weight: 700;
+}
+.home-head ul li .active{
+    color:	#00BFFF;
+    font-size: 20px;
+}
+.home-main{
+    /* overflow: hidden; */
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url("./背景.png");
+    background-size: 96%;
+    background-repeat: no-repeat;
+    height:800px;
+    width: 100%;
+    padding-top: 1px;
+}
+.menu{
+    float: right;
+    margin-top:7px;
+    margin-right: 5px;
+    background-image: url('./菜单.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+    width:40px;
+    height: 40px;
+    display: none;
+    margin-top:-2px;
+}
+.close{
+    float: right;
+    margin-right: 15px;
+    margin-top:15px;
+    /* margin-right: 5px; */
+    background-image: url('./关闭.png');
+    background-size:60%;
+    background-repeat: no-repeat;
+    width:40px;
+    height: 40px;
+    display: none;
+}
+
+
+
+
+.fade-enter, .fade-appear {
+    opacity: 0;
+}
+
+.fade-enter-active, .fade-appear-active { 
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.fade-enter-done {
+    opacity: 1;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.fade-exit-done {
+    opacity: 0;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color: white;
+        height: 100%;
+    }
+    .home-main{
+        margin: 0px;
+        padding: 0px;
+        background: white;
+        height: 100%;
+    }
+    .home-head{
+        line-height: 50px;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        margin-top:-20px;
+        padding-top:10px;
+        margin-bottom: -10px;
+    }
+    .home-head ul{
+        padding-left: 0px;
+    }
+    .home-head ul li{
+        margin-left: 10px;
+        display: block;
+        width: 100%;
+        text-align: left;
+        font-size: 23px;
+        border-top: 1px solid white;
+    }
+    .home-head ul .head-text{
+        width: 100%;
+        color: white;
+        font-size: 23px;
+        border:0
+    }
+    .menu{
+        display: block;
+        margin-top:5px;
+        margin-right: 25px;
+    }
+    .active{
+        font-size: 23px;
+    }
+}
