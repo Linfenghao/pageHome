@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.da5cbd57.chunk.css",
+    "main.js": "./static/js/main.c571307d.chunk.js",
+    "main.js.map": "./static/js/main.c571307d.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/js/2.a75c4b5f.chunk.js": "./static/js/2.a75c4b5f.chunk.js",
+    "static/js/2.a75c4b5f.chunk.js.map": "./static/js/2.a75c4b5f.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.db01fc265f4ad01148a75a1ab8adf86c.js": "./precache-manifest.db01fc265f4ad01148a75a1ab8adf86c.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.da5cbd57.chunk.css.map": "./static/css/main.da5cbd57.chunk.css.map",
+    "static/media/wx.png": "./static/media/wx.2e6be901.png",
+    "static/media/myHome.css": "./static/media/头像.38221711.jpg",
+    "static/media/mySkill.css": "./static/media/背景.eea30dfc.png",
+    "static/media/项目1-1.png": "./static/media/项目1-1.017ac3c8.png",
+    "static/media/项目1-2.png": "./static/media/项目1-2.4ef3bbd8.png",
+    "static/media/项目1-3.png": "./static/media/项目1-3.f6415ce9.png",
+    "static/media/项目2-1.png": "./static/media/项目2-1.acd6343c.png",
+    "static/media/项目2-2.jpg": "./static/media/项目2-2.4d8996e6.jpg",
+    "static/media/项目2-3.jpg": "./static/media/项目2-3.45621398.jpg",
+    "static/media/项目2-4.jpg": "./static/media/项目2-4.3abcfd06.jpg"
+  }
+}
